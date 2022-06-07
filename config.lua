@@ -50,7 +50,7 @@
 
 
 
-FuelScript = 'LegacyFuel' -- change to lj-fuel if you use lj-fuel or something else if you use any other LegcyFuel compatible script
+FuelScript = 'ps-fuel' -- change to lj-fuel if you use lj-fuel or something else if you use any other LegcyFuel compatible script
 UseLoafHousing = false
 AllowSpawningFromAnywhere = true -- if set to true, the car will be spawned in the next 
 AutoRespawn = true --True == auto respawn cars that are outside into your garage on script restart, false == does not put them into your garage and players have to go to the impound
@@ -1471,7 +1471,7 @@ Garages = {
         label = 'Front of MRPD',
         type = 'job',
         job = "police",
-        vehicleCategories = {'emergency'},
+        vehicleCategories = {'car', 'emergency'},
         drawText = 'Parking',
         ["ParkingSpots"] = {
             vector4(407.44, -997.7, 28.94, 52.87),
